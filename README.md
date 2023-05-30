@@ -1,12 +1,35 @@
-# Streamlabs Widget Chatbox CSS
+# StreamLab Chatbox Widget Style
 
-This repository contains CSS code for styling the chatbox in the Streamlabs widget. It provides customization options for the appearance of messages, avatars, usernames, timestamps, content, and emotes within the chatbox.
+This repository contains the CSS code for styling the StreamLab Chatbox Widget.
 
 ## Usage
 
-1. Copy the CSS code from the `chatbox.css` file.
-2. Paste the CSS code into your HTML or CSS file where you want to apply the styles for the chatbox.
-3. Customize the styles as desired. You can modify colors, fonts, sizes, margins, and other properties to match your desired design.
+To apply the custom style to your StreamLab Chatbox Widget, follow these steps:
 
-```html
-<link rel="stylesheet" type="text/css" href="path/to/chatbox.css">
+1. Copy the entire CSS code from this repository's `style.css` file.
+2. Paste the CSS code into your StreamLab Chatbox Widget configuration.
+3. Save the changes and preview your StreamLab Chatbox Widget to see the updated style.
+
+## Customization
+
+You can customize various aspects of the StreamLab Chatbox Widget style by modifying the provided CSS properties. Here are some key properties you can adjust:
+
+- `text-shadow`: Specifies the text shadow style.
+- `background`: Sets the background color for the chatbox.
+- `font-family`: Defines the font family for the text.
+- `font-weight`: Sets the font weight for the text.
+- `font-size`: Specifies the font size for the text.
+- `color`: Sets the text color.
+
+Feel free to experiment and modify the code to match your desired style preferences.
+
+## Features
+
+- Left-aligned layout: All chat messages and metadata are aligned to the left.
+- Clear black shadow: The text has a clear black shadow effect.
+- Specific font: The font used is 'Microsoft JhengHei' with a font weight of 700.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this CSS code according to the terms of the license.
+
