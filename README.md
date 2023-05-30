@@ -6,7 +6,7 @@ This repository contains the CSS code for styling the StreamLab Chatbox Widget.
 
 To apply the custom style to your StreamLab Chatbox Widget, follow these steps:
 
-1. Copy the entire CSS code from this repository's `style.css` file.
+1. Copy the entire CSS code from this repository's `chatbox.css` file.
 2. Paste the CSS code into your StreamLab Chatbox Widget configuration.
 3. Save the changes and preview your StreamLab Chatbox Widget to see the updated style.
 
