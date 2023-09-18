@@ -6,7 +6,7 @@ html, body {
 body {
   background: {background_color};
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: {font_size};
   line-height: 1.5em;
   color: {text_color};
