@@ -1,29 +1,27 @@
 html, body {
-  height: 100%;  // Set the height of the html and body elements to 100%
-  overflow: hidden;  // Hide overflow content
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
-  background: {background_color};  // Set background color
-  font-family: 'Microsoft JhengHei', sans-serif;  // Set font family
-  font-weight: 500;  // Set font weight
-  font-size: {font_size};  // Set font size
-  line-height: 1.2em;  // Set line height
-  color: {text_color};  // Set text color
+  background: {background_color};
+  font-family: 'Microsoft JhengHei', sans-serif;
+  font-weight: 500;
+  font-size: {font_size};
+  line-height: 1.2em;
+  color: {text_color};
 }
 
 #log>div {
-  // Set animations for message elements within the log
   animation: fadeInRight .3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
   -webkit-animation: fadeInRight .3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
 }
 
 .colon {
-  display: none;  // Hide colon character
+  display: none;
 }
 
 #log {
-  // Set the properties of the log container
   display: table;
   position: absolute;
   bottom: 0;
@@ -34,11 +32,10 @@ body {
 }
 
 #log>div.deleted {
-  visibility: hidden;  // Hide deleted messages
+  visibility: hidden;
 }
 
 #log .emote {
-  // Set properties for emote elements within the log
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -47,14 +44,12 @@ body {
 }
 
 #log .emote img {
-  // Set properties for images within emote elements
   display: inline-block;
   height: 1em;
   opacity: 0;
 }
 
 #log .message, #log .meta {
-  // Set common properties for message and meta elements
   vertical-align: top;
   display: table-cell;
   padding-bottom: 0.1em;
@@ -62,7 +57,6 @@ body {
 }
 
 #log .meta {
-  // Set properties for meta elements
   width: 100px;
   padding-right: 0.5em;
   white-space: nowrap;
@@ -72,14 +66,12 @@ body {
 }
 
 #log .message {
-  // Set properties for message elements
-  overflow-wrap: break-word;
+  overflow-wrap: break-word; /* Updated from word-wrap */
   width: calc(100% - 35% - 0.5em);
   text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
 }
 
 .badge {
-  // Set properties for badge elements
   display: inline-block;
   margin-right: 0.2em;
   position: relative;
@@ -89,7 +81,6 @@ body {
 }
 
 .name {
-  // Set properties for name elements
   margin-left: 0.2em;
   text-align: left;
   text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
