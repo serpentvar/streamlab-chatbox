@@ -1,8 +1,10 @@
+/* Setting height and overflow properties for html and body */
 html, body {
   height: 100%;
   overflow: hidden;
 }
 
+/* Setting styling for the body */
 body {
   background: {background_color};
   font-family: 'Microsoft JhengHei', sans-serif;
@@ -12,15 +14,18 @@ body {
   color: {text_color};
 }
 
+/* Setting animation for each message div inside the log */
 #log>div {
   animation: fadeInRight .3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
   -webkit-animation: fadeInRight .3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
 }
 
+/* Hiding colon character */
 .colon {
   display: none;
 }
 
+/* Setting the properties of the log container */
 #log {
   display: table;
   position: absolute;
@@ -31,10 +36,12 @@ body {
   table-layout: fixed;
 }
 
+/* Hiding deleted messages */
 #log>div.deleted {
   visibility: hidden;
 }
 
+/* Styling for emote images */
 #log .emote {
   background-repeat: no-repeat;
   background-position: center;
@@ -43,12 +50,14 @@ body {
   position: relative;
 }
 
+/* Styling for images within emote */
 #log .emote img {
   display: inline-block;
   height: 1em;
   opacity: 0;
 }
 
+/* Common properties for message and meta elements */
 #log .message, #log .meta {
   vertical-align: top;
   display: table-cell;
@@ -56,6 +65,7 @@ body {
   text-align: left;
 }
 
+/* Setting the properties of meta elements */
 #log .meta {
   width: 100px;
   padding-right: 0.5em;
@@ -65,12 +75,14 @@ body {
   text-align: left;
 }
 
+/* Setting the properties for message elements */
 #log .message {
-  overflow-wrap: break-word; /* Updated from word-wrap */
+  overflow-wrap: break-word;
   width: calc(100% - 35% - 0.5em);
   text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
 }
 
+/* Styling for badge elements */
 .badge {
   display: inline-block;
   margin-right: 0.2em;
@@ -80,6 +92,7 @@ body {
   top: -0.1em;
 }
 
+/* Styling for name elements */
 .name {
   margin-left: 0.2em;
   text-align: left;
