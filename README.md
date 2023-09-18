@@ -28,8 +28,3 @@ Feel free to experiment and modify the code to match your desired style preferen
 - Left-aligned layout: All chat messages and metadata are aligned to the left.
 - Clear black shadow: The text has a clear black shadow effect.
 - Specific font: The font used is 'Microsoft JhengHei' with a font weight of 700.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this CSS code according to the terms of the license.
-
