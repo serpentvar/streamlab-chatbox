@@ -8,7 +8,7 @@ body {
   font-family: 'Microsoft JhengHei', sans-serif;
   font-weight: 500;
   font-size: {font_size};
-  line-height: 1.5em;
+  line-height: 1.2em;
   color: {text_color};
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 #log .meta {
-  width: 35%;
+  width: 100px;
   padding-right: 0.5em;
   white-space: nowrap;
   text-overflow: ellipsis;
